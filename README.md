@@ -18,4 +18,4 @@ test:
 [continuous integration]: https://en.m.wikipedia.org/wiki/Continuous_integration
 [GitLab CI]: https://about.gitlab.com/2016/07/29/the-basics-of-gitlab-ci/
 [serverspec]: http://serverspec.org/
-[docker container]:
+[docker container]: https://hub.docker.com/r/hamroctopus/serverspec/tags/
