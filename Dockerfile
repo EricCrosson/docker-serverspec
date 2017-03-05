@@ -3,10 +3,6 @@ MAINTAINER Eric Crosson <esc@ericcrosson.com>
 
 RUN mkdir -p /code
 
-COPY Gemfile /code/Gemfile
-
-RUN gem install bundle && \
-cd /code && \
-bundle install
+RUN gem install serverspec docker-api
 
 ENTRYPOINT []
