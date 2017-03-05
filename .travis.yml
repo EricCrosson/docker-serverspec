@@ -4,5 +4,12 @@ sudo: required
 services:
   - docker
 
+install:
+  - gem install bundle
+  - bundle install
+
 script:
   - docker build -t ecrosson/serverspec .
+
+after_success:
+  - rake spec
