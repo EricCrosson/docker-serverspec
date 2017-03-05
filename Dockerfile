@@ -8,3 +8,5 @@ COPY Gemfile /code/Gemfile
 RUN gem install bundle && \
 cd /code && \
 bundle install
+
+ENTRYPOINT []
