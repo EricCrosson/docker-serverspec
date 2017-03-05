@@ -8,6 +8,9 @@ install:
   - gem install bundle
   - bundle install
 
+before_script:
+  - docker run --rm -i lukasmartinelli/hadolint < Dockerfile
+
 script:
   - docker build -t ecrosson/serverspec .
 
