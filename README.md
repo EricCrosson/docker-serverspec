@@ -1,6 +1,7 @@
 # Overview
 
 [![Build Status](https://travis-ci.org/EricCrosson/docker-serverspec.svg?branch=master)](https://travis-ci.org/EricCrosson/docker-serverspec)
+[![Docker Stats](https://img.shields.io/docker/pulls/hamroctopus/serverspec.svg)](https://hub.docker.com/r/hamroctopus/serverspec/)
 
 This project provides a [docker container] of [serverspec] that is
 suitable for use in a [continuous integration] system like [GitLab
@@ -10,7 +11,7 @@ CI].
 
 ```yml
 test:
-  image: hamroctopus/docker-serverspec
+  image: hamroctopus/serverspec
   script:
     - rake spec
 ```
